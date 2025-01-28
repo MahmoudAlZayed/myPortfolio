@@ -1,0 +1,115 @@
+@import "sideBar.css";
+.header h1 {
+  font-size: 64px;
+  font-family: "Oxygen", serif;
+  color: #ffffff;
+  margin: 10px 0px;
+}
+.header p {
+  font-size: 15px;
+  font-family: "Oxygen", serif;
+  color: #ffffff;
+  margin: 15px 0px;
+}
+
+.aboutMe h2 {
+  font-size: 30px;
+  font-family: "Oxygen", serif;
+  color: #f1f1f1;
+  margin: 10px 0px;
+  text-align: left;
+}
+.aboutMe hr {
+  max-width: 200px;
+  width: 100%;
+  margin: 20px 0px;
+}
+.aboutMe p {
+  font-size: 15px;
+  font-family: "Oxygen", serif;
+  color: #757575;
+  margin: 15px 0px;
+  text-align: left;
+  max-width: 800px;
+  width: 100%;
+  min-height: 135px;
+}
+
+.skills h3 {
+  font-size: 24px;
+  font-family: "Oxygen", serif;
+  color: #f1f1f1;
+  margin: 10px 0px;
+  padding: 16px 0px;
+  text-align: left;
+}
+.skills p {
+  font-size: 15px;
+  font-family: "Oxygen", serif;
+  color: #757575;
+  margin: 15px 0px;
+  text-align: left;
+}
+.skills .htmlAndCssAndSassAndGit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.skills .htmlAndCssAndSassAndGit .eightyPerCent {
+  max-width: 900px;
+  width: 100%;
+  background-color: #616161;
+}
+.skills .htmlAndCssAndSassAndGit .twentyPerCent {
+  max-width: 50px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.skills .javaScriptAndReact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.skills .javaScriptAndReact .seventyPerCent {
+  max-width: 800px;
+  width: 100%;
+  background-color: #616161;
+}
+.skills .javaScriptAndReact .thirtyPerCent {
+  max-width: 200px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.skills .git {
+  background-color: #616161;
+  color: #616161;
+}
+
+.cv {
+  max-width: 209.39px;
+  width: 100%;
+  min-height: 46.5;
+  color: #000000;
+  background-color: rgba(241, 241, 241, 0.9450980392);
+  font-family: "Oxygen", serif;
+  font-size: 15px;
+  margin: 16px 0px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+.cv .downloadIcon {
+  margin: 0 5px;
+}
+
+.portfolio h2 {
+  font-size: 30px;
+  font-family: "Oxygen", serif;
+  color: #f1f1f1;
+  margin: 10px 0px;
+  text-align: left;
+}
+.portfolio hr {
+  max-width: 200px;
+  width: 100%;
+  margin: 20px 0px;
+}

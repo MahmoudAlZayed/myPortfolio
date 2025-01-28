@@ -1,0 +1,46 @@
+.navMobileContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  z-index: 1;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(23, 22, 22, 0.5);
+  transition: 0.5s;
+
+  .navMobileContent {
+    position: relative;
+    top: 30%;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .closeIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Oxygen", serif;
+    padding: 10px;
+  }
+}
+.openIcon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  font-size: 40px;
+}

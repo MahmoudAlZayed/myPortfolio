@@ -1,0 +1,52 @@
+.sideBarContainer {
+  background-color: rgb(36, 35, 35);
+  position: fixed;
+  top: 0;
+  left: 0;
+  //   overflow-x: hidden;
+  width: 7%;
+  height: 100%;
+  z-index: 1;
+}
+.sideBarContent {
+  position: relative;
+  // margin: 50%;
+  left: 0px;
+  top: 7%;
+  margin-left: -30px;
+}
+.icons {
+  display: block;
+  font-size: 40px;
+  // border: 2px solid;
+  margin: auto;
+
+}
+.ulSideBar {
+
+  list-style: none;
+  // border: 2px solid white;
+  li {
+    padding: 20px;
+    // cursor: pointer;
+    // border: 2px solid;
+
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Oxygen", serif;
+    // border: 2px solid;
+    max-width: 100px;
+    width: 100%;
+  }
+  a:hover {
+    background-color: #000000;
+  }
+}
+.ulSideBar:hover {
+  background-color: #000000;
+}

@@ -1,0 +1,92 @@
+.form {
+  h2 {
+    color: #f1f1f1;
+    font-size: 30px;
+    font-family: "Oxygen", serif;
+    margin: 10px 0px;
+    text-align: left;
+  }
+  hr {
+    max-width: 200px;
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .city {
+    display: flex;
+    gap: 10px;
+    p {
+      color: #757575;
+      font-size: 15px;
+      font-family: "Oxygen", serif;
+      margin: 15px 0px;
+      text-align: left;
+    }
+    .locatioIcon {
+      font-size: 30px;
+    }
+  }
+  .email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    p {
+      color: #757575;
+      font-size: 15px;
+      font-family: "Oxygen", serif;
+      margin: 15px 0px;
+      text-align: left;
+    }
+    .emailIcon {
+      font-size: 30px;
+    }
+  }
+
+  p {
+    color: #757575;
+    font-family: "Oxygen", serif;
+    margin: 15px 0px;
+    text-align: left;
+  }
+
+  label {
+    display: block;
+  }
+  input {
+    max-width: 980px;
+    width: 100%;
+    min-height: 55.5px;
+    background-color: #ffffff;
+    margin: 10px 0px;
+    color: black;
+    font-family: "Oxygen", serif;
+
+    // padding: 16px 8px;
+  }
+  textarea {
+    max-width: 980px;
+    width: 100%;
+    min-height: 55.5px;
+    background-color: #ffffff;
+    color: black;
+    margin: 10px 0px;
+  }
+
+  .sendBtn {
+    max-width: 189.75px;
+    width: 100%;
+    min-height: 46.5px;
+    color: #000000;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    font-family: "Oxygen", serif;
+    font-weight: bold;
+    padding: 12px 24px;
+    cursor: pointer;
+  }
+  .sendBtn:hover {
+    background-color: lightgray;
+  }
+  .sendIcon {
+    font-size: 20px;
+  }
+}

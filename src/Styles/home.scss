@@ -1,0 +1,134 @@
+.header {
+  h1 {
+    font-size: 64px;
+    font-family: "Oxygen", serif;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 10px 0px;
+  }
+  p {
+    font-size: 15px;
+    font-family: "Oxygen", serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 15px 0px;
+  }
+}
+.aboutMe {
+  h2 {
+    font-size: 30px;
+    font-family: "Oxygen", serif;
+    color: #f1f1f1;
+    margin: 10px 0px;
+    text-align: left;
+  }
+  hr {
+    max-width: 200px;
+    width: 100%;
+    margin: 20px 0px;
+  }
+  p {
+    font-size: 15px;
+    font-family: "Oxygen", serif;
+    color: #757575;
+    margin: 15px 0px;
+    text-align: left;
+    max-width: 800px;
+    width: 100%;
+    min-height: 135px;
+  }
+}
+.skills {
+  h3 {
+    font-size: 24px;
+    font-family: "Oxygen", serif;
+    color: #f1f1f1;
+    margin: 10px 0px;
+    padding: 16px 0px;
+    text-align: left;
+  }
+  p {
+    font-size: 15px;
+    font-family: "Oxygen", serif;
+    color: #757575;
+    margin: 15px 0px;
+    text-align: left;
+  }
+  .htmlAndCssAndSassAndGit {
+    display: flex;
+
+    .eightyPerCent {
+      max-width: 900px;
+      width: 100%;
+      background-color: #616161;
+    }
+    .twentyPerCent {
+      max-width: 50px;
+      width: 100%;
+      background-color: #f1f1f1;
+    }
+  }
+  .javaScriptAndReact {
+    display: flex;
+
+    .seventyPerCent {
+      max-width: 800px;
+      width: 100%;
+      background-color: #616161;
+    }
+    .thirtyPerCent {
+      max-width: 200px;
+      width: 100%;
+      background-color: #f1f1f1;
+    }
+  }
+  .git {
+    background-color: #616161;
+    color: #616161;
+  }
+}
+.cv {
+  // max-width: 209.39px;
+  // width: 100%;
+  // min-height: 46.5;
+  // color: #000000;
+  // background-color: #f1f1f1f1;
+  // font-family: "Oxygen", serif;
+  // font-size: 15px;
+  // margin: 16px 0px;
+  // padding: 12px 24px;
+  // cursor: pointer;
+  margin: 16px 0px;
+  text-align: left;
+
+  a {
+    max-width: 209.39px;
+    width: 100%;
+    min-height: 46.5;
+    color: #000000;
+    background-color: #f1f1f1f1;
+    font-family: "Oxygen", serif;
+    font-size: 15px;
+    padding: 12px 24px;
+    .downloadIcon {
+      margin: 0 5px;
+    }
+  }
+  a:hover {
+    background-color: lightgray;
+  }
+}
+.portfolio {
+  h2 {
+    font-size: 30px;
+    font-family: "Oxygen", serif;
+    color: #f1f1f1;
+    margin: 40px 10px 0px 0px;
+    text-align: left;
+  }
+  hr {
+    max-width: 200px;
+    width: 100%;
+    margin: 20px 0px;
+  }
+}

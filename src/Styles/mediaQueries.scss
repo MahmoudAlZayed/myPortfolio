@@ -1,0 +1,26 @@
+.navMobileContainer {
+  display: none;
+}
+.openIcon {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .sideBarContainer {
+    display: none;
+  }
+  .navMobileContainer {
+    display: block;
+  }
+  .openIcon {
+    display: block;
+  }
+  .header {
+    h1 {
+      font-size: 50px;
+      font-family: "Oxygen", serif;
+      font-weight: normal;
+      color: #ffffff;
+      margin: 50px 10px 0px 0px;
+    }
+  }
+}
