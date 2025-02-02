@@ -7,6 +7,9 @@ import Project3 from "../images/Project3.png";
 import Project4 from "../images/Project4.png";
 import mainProject from "../images/mainProject.png";
 import TicTacToe from "../images/TicTacToe.png";
+import RockMemory from "../images/rock-magic-memory.png";
+
+
 
 export default function Work() {
   const projects = [
@@ -60,6 +63,24 @@ export default function Work() {
     },
     {
       id: 3,
+      title: <h1>ROCK-MAGIC-MEMORY</h1>,
+      image: (
+        <a
+          href="https://rock-magic-memory.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={RockMemory} alt="Rock-Magic-Memory-Image" className="rockMemory" />
+        </a>
+      ),
+      description: (
+        <p className="projectDescription">
+         This project is one of the games I coded using React.
+        </p>
+      ),
+    },
+    {
+      id: 4,
       title: <h1>BHRAOMAON</h1>,
       image: (
         <a
@@ -78,7 +99,7 @@ export default function Work() {
       ),
     },
     {
-      id: 4,
+      id: 5,
       title: <h1>TYPING GAME</h1>,
 
       image: (
@@ -98,7 +119,7 @@ export default function Work() {
       ),
     },
     {
-      id: 5,
+      id: 6,
       title: <h1>MUSICIAN</h1>,
       image: (
         <a
@@ -117,7 +138,7 @@ export default function Work() {
       ),
     },
     {
-      id: 6,
+      id: 7,
       title: <h1>MZMUSICGUITAR</h1>,
       image: (
         <a
