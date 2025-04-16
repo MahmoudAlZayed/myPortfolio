@@ -1,3 +1,5 @@
+// /* eslint-disable react/prop-types */
+
 //Components
 import NavMobile from "./NavMobile";
 import Home from "./Home";

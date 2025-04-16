@@ -9,8 +9,6 @@ import mainProject from "../images/mainProject.png";
 import TicTacToe from "../images/TicTacToe.png";
 import RockMemory from "../images/rock-magic-memory.png";
 
-
-
 export default function Work() {
   const projects = [
     {
@@ -70,12 +68,16 @@ export default function Work() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={RockMemory} alt="Rock-Magic-Memory-Image" className="rockMemory" />
+          <img
+            src={RockMemory}
+            alt="Rock-Magic-Memory-Image"
+            className="rockMemory"
+          />
         </a>
       ),
       description: (
         <p className="projectDescription">
-         This project is one of the games I coded using React.
+          This project is one of the games I coded using React.
         </p>
       ),
     },

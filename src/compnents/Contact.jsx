@@ -29,6 +29,8 @@ export default function Contact() {
       .then(
         () => {
           console.log("SUCCESS!");
+          setInput({ name: "", email: "", message: "" });
+          form.current.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);

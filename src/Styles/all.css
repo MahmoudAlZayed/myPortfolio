@@ -1,15 +1,69 @@
-@import "sideBar.css";
+.navMobileContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  z-index: 1;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(23, 22, 22, 0.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.navMobileContainer .navMobileContent {
+  position: relative;
+  top: 30%;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+.navMobileContainer .closeIcon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.navMobileContainer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navMobileContainer a {
+  text-decoration: none;
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Oxygen", serif;
+  padding: 10px;
+}
+
+.openIcon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  font-size: 40px;
+}
+
 .header h1 {
   font-size: 64px;
   font-family: "Oxygen", serif;
+  font-weight: normal;
   color: #ffffff;
   margin: 10px 0px;
 }
 .header p {
   font-size: 15px;
   font-family: "Oxygen", serif;
+  font-weight: bold;
   color: #ffffff;
   margin: 15px 0px;
+}
+
+.myImage {
+  max-width: 634px;
+  width: 100%;
 }
 
 .aboutMe h2 {
@@ -86,6 +140,10 @@
 }
 
 .cv {
+  margin: 16px 0px;
+  text-align: left;
+}
+.cv a {
   max-width: 209.39px;
   width: 100%;
   min-height: 46.5;
@@ -93,23 +151,258 @@
   background-color: rgba(241, 241, 241, 0.9450980392);
   font-family: "Oxygen", serif;
   font-size: 15px;
-  margin: 16px 0px;
   padding: 12px 24px;
-  cursor: pointer;
 }
-.cv .downloadIcon {
+.cv a .downloadIcon {
   margin: 0 5px;
+}
+.cv a:hover {
+  background-color: lightgray;
 }
 
 .portfolio h2 {
   font-size: 30px;
   font-family: "Oxygen", serif;
   color: #f1f1f1;
-  margin: 10px 0px;
+  margin: 40px 10px 0px 0px;
   text-align: left;
 }
 .portfolio hr {
   max-width: 200px;
   width: 100%;
   margin: 20px 0px;
+}
+
+.sideBarContainer {
+  background-color: rgb(36, 35, 35);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 7%;
+  height: 100%;
+  z-index: 1;
+}
+
+.sideBarContent {
+  position: relative;
+  left: 0px;
+  top: 7%;
+  margin-left: -30px;
+}
+
+.icons {
+  display: block;
+  font-size: 40px;
+  margin: auto;
+}
+
+.ulSideBar {
+  list-style: none;
+}
+.ulSideBar li {
+  padding: 20px;
+}
+.ulSideBar a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Oxygen", serif;
+  max-width: 100px;
+  width: 100%;
+}
+.ulSideBar a:hover {
+  background-color: #000000;
+}
+
+.ulSideBar:hover {
+  background-color: #000000;
+}
+
+.content {
+  max-width: 920px;
+  width: 100%;
+  min-height: 900px;
+  font-family: "Oxygen", serif;
+}
+.content h1 {
+  text-align: center;
+  max-width: 450px;
+  width: 100%;
+  display: none;
+}
+.content .projectDescription {
+  max-width: 900px;
+  width: 100%;
+  min-height: 96px;
+  text-align: center;
+}
+
+.peojectsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  max-width: 920px;
+  width: 100%;
+}
+.peojectsContainer .mainProjectContainer {
+  max-width: 450px;
+  width: 100%;
+  border: 2px solid lightgray;
+}
+.peojectsContainer .ProjectContainer {
+  max-width: 450px;
+  width: 100%;
+}
+.peojectsContainer .mainProjectImage {
+  max-width: 450px;
+  width: 100%;
+  min-height: 452px;
+}
+.peojectsContainer .project1Image,
+.peojectsContainer .project3Image {
+  max-width: 450px;
+  width: 100%;
+  cursor: pointer;
+}
+.peojectsContainer .TicTacToeImage {
+  max-width: 454px;
+  width: 100%;
+}
+.peojectsContainer .rockMemory {
+  max-width: 454px;
+  width: 100%;
+  min-height: 305px;
+}
+.peojectsContainer .project4Image,
+.peojectsContainer .project2Image {
+  max-width: 450px;
+  width: 100%;
+  min-height: 294.28px;
+}
+
+.form h2 {
+  color: #f1f1f1;
+  font-size: 30px;
+  font-family: "Oxygen", serif;
+  margin: 10px 0px;
+  text-align: left;
+}
+.form hr {
+  max-width: 200px;
+  width: 100%;
+  margin: 20px 0px;
+}
+.form .city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.form .city p {
+  color: #757575;
+  font-size: 15px;
+  font-family: "Oxygen", serif;
+  margin: 15px 0px;
+  text-align: left;
+}
+.form .city .locatioIcon {
+  font-size: 30px;
+}
+.form .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.form .email p {
+  color: #757575;
+  font-size: 15px;
+  font-family: "Oxygen", serif;
+  margin: 15px 0px;
+  text-align: left;
+}
+.form .email .emailIcon {
+  font-size: 30px;
+}
+.form p {
+  color: #757575;
+  font-family: "Oxygen", serif;
+  margin: 15px 0px;
+  text-align: left;
+}
+.form label {
+  display: block;
+}
+.form input {
+  max-width: 980px;
+  width: 100%;
+  min-height: 55.5px;
+  background-color: #ffffff;
+  margin: 10px 0px;
+  color: black;
+  font-family: "Oxygen", serif;
+}
+.form textarea {
+  max-width: 980px;
+  width: 100%;
+  min-height: 55.5px;
+  background-color: #ffffff;
+  color: black;
+  margin: 10px 0px;
+}
+.form .sendBtn {
+  max-width: 189.75px;
+  width: 100%;
+  min-height: 46.5px;
+  color: #000000;
+  background-color: #f1f1f1;
+  font-size: 15px;
+  font-family: "Oxygen", serif;
+  font-weight: bold;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+.form .sendBtn:hover {
+  background-color: lightgray;
+}
+.form .sendIcon {
+  font-size: 20px;
+}
+
+.navMobileContainer {
+  display: none;
+}
+
+.openIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sideBarContainer {
+    display: none;
+  }
+  .navMobileContainer {
+    display: block;
+  }
+  .openIcon {
+    display: block;
+  }
+  .header h1 {
+    font-size: 50px;
+    font-family: "Oxygen", serif;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 50px 10px 0px 0px;
+  }
 }
